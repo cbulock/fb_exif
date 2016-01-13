@@ -4,6 +4,10 @@ This script is designed to work with Facebook archives.  You can start by gettin
 
 Once you've downloaded that and extracted the zip file, this you will have all of your Facebook data, including all uploaded photos.  You will find the photos do not have any EXIF data in them, but some of that data is available within the HTML files in the archive.  This script will populate those images with that data.
 
+## Requirements
+
+Ruby 1.9 or higher and an installation of the Exiftool command-line application at least version 7.65. Instructions for installation you can find under www.sno.phy.queensu.ca/~phil/exiftool/install.html .
+
 ## Installation
 
     gem install fb_exif
